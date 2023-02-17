@@ -2,7 +2,7 @@
 
 <center>2015. CVPR 2016 Best Paper Honorable Mention</center>
 
-![](D:\CV_GitHub\Reading-23\paperReading\Classifications\imgs\ResNet_Img_Title.png)
+![](https://raw.githubusercontent.com/BigbigShark/Reading-23/master/paperReading/Classifications/imgs/ResNet_Img_Title.png)
 
 ## 发现问题Problems
 
@@ -10,7 +10,7 @@
 
 - 补充：收敛是有好坏之分的，单纯的收敛没有意义，要看收敛在什么地方；如果收敛在不好的地方，一般就说训练不动了。
 
-  ![](D:\CV_GitHub\Reading-23\paperReading\Classifications\imgs\ResNet_Img_Problems.png)
+  ![](https://raw.githubusercontent.com/BigbigShark/Reading-23/master/paperReading/Classifications/imgs/ResNet_Img_Problems.png)
 
 ## 分析问题Analysis
 
@@ -19,7 +19,7 @@
 
 ## 解决问题Solutions
 
-![](D:\CV_GitHub\Reading-23\paperReading\Classifications\imgs\ResNet_Img_Solutions.png)
+![](https://raw.githubusercontent.com/BigbigShark/Reading-23/master/paperReading/Classifications/imgs/ResNet_Img_Solutions.png)
 
 - 人为添加恒等映射。**Shortcut connections** (Highway connections). Explicitly construct identity mappings, which ensures deeper models will perform no worse than shallower models.
 
@@ -34,16 +34,16 @@
 
 - Deeper than 50 layers: **Bottleneck** (to save computations)
 
-  ![](D:\CV_GitHub\Reading-23\paperReading\Classifications\imgs\ResNet_Img_Solutions_Bottleneck.png)
+  ![](https://raw.githubusercontent.com/BigbigShark/Reading-23/master/paperReading/Classifications/imgs/ResNet_Img_Solutions_Bottleneck.png)
 
 ## 贡献Contributions
 
-![image-20230217151627809](D:\CV_GitHub\Reading-23\paperReading\Classifications\imgs\ResNet_Img_Countributions)
+![image-20230217151627809](https://raw.githubusercontent.com/BigbigShark/Reading-23/master/paperReading/Classifications/imgs/ResNet_Img_Countributions)
 
 - 解决了网络特别深时，梯度爆炸或者梯度消失的问题。It solves the exploding/vanishing gradients as the model goes deeper.
 - 收敛得更快。Converge faster.
 
-![](D:\CV_GitHub\Reading-23\paperReading\Classifications\imgs\ResNet_Img_Gradients.png)
+![](https://raw.githubusercontent.com/BigbigShark/Reading-23/master/paperReading/Classifications/imgs/ResNet_Img_Gradients.png)
 
 - 使得后续研究可以更加关注网络架构，而不受深度束缚。Allow following researches pay more attention to model structure design, not bound by depth.
 

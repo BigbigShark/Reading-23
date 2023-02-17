@@ -4,6 +4,6 @@
 
 ## PaperReading
 
-### Classification
+### BasicModels
 
 - Rethink ResNet
