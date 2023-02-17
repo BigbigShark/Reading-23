@@ -2,7 +2,7 @@
 
 <center>2017. NIPS 2017</center>
 
-![](D:\CV_GitHub\Reading-23\PaperReading\BasicModels\imgs\Transformer_Title.png)
+![](https://raw.githubusercontent.com/BigbigShark/Reading-23/master/PaperReading/BasicModels/imgs/Transformer_Title.png)
 
 ## 发现问题Problems
 
